@@ -1,0 +1,13 @@
+@cellBg:#FFFFFF;
+@cellBorderColor:#D9D9D9;
+@cellGapV:.6rem;
+@cellGapH:1rem;
+@cellInnerGapH:.35em;
+@cellHeight: 2.6rem;
+@cellFontSize:1rem;
+@cellTipsFontSize:.88rem;
+@cellLabelWidth:6.5625rem;
+
+//@cellLineHeight: 1.41176471;
+@cellLineHeight: unit((@cellHeight - 2 * @cellGapV) / @cellFontSize); // 高度为44px，减去上下padding的行高
+@cellsMarginTop:unit(1.1 / @cellFontSize, rem);
